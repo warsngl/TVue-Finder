@@ -1,7 +1,6 @@
-<template>
-  <div class='bg-blue-100 h-screen'>
-    <Nuxt />
-  </div>
+<template lang="pug">
+.flex.flex-col
+  Nuxt.flex-1
 </template>
 
 <style>
@@ -14,7 +13,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  
+  @apply bg-blue-100 px-2
 }
 
 *,
